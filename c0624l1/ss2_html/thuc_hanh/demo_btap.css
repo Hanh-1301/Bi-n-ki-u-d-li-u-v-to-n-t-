@@ -1,0 +1,51 @@
+body{
+    background-color: white;
+}
+ul.a{
+    color: black;
+    list-style-type: square;
+}
+ul.b{
+    color: aqua;
+    list-style-position: outside;
+    background: darkmagenta;
+    padding:30px
+;
+}
+ol.c{
+    color: linen;
+    list-style-type: upper-alpha;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+table,th,td{
+    border: 1px solid black;
+}
+th{
+
+    padding: initial;
+}
+td{
+    width: 50%;
+}
+h1{
+    color: forestgreen;
+    text-align: center;
+    font-size: 50px;
+}
+p{
+    color: blue;
+    text-align: left;
+    font-size: 30px;
+}
+h1{
+    color: blue;
+    text-align: center;
+}
+p{
+    color: forestgreen;
+    text-align: left;
+    font-size: 20px;
+}

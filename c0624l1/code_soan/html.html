@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<!--tạo khung bằng style
+table :kiểu dáng của bảng
+th: Áp dụng kiểu dáng cho các ô tiêu đề của bảng (table header cells)
+td: Áp dụng kiểu dáng cho các ô dữ liệu của bảng (table data cells).
+border :có độ dày, đường thẳng, màu-->
+<style>
+    table th, td{
+        border:1px solid black;
+    }
+</style>
+<body>
+<h2>Table</h2>
+    <table style="width:100%">
+        <tr>
+<!--            <tr></tr>: định dạng 1 hàng trong bảng
+<th></th>: định dạng tiêu đề trong bảng-->
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+<!--            <td></td>: viết nội dung cho bảng-->
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+        </tr>
+    </table>
+<!-- gộp hàng-->
+<table style="width:100%">
+    <tr>
+        <th colspan="2">Name</th>
+        <th>Age</th>
+    </tr>
+<!--    colspan="2": Thuộc tính này chỉ định rằng ô tiêu đề này sẽ chiếm hai cột trong bảng.
+ "Name" sẽ trải dài qua hai cột.-->
+<!--    gộp cột-->
+    <tr>
+        <th rowspan="2">Phone</th>
+        <td>555-1234</td>
+    </tr>
+<!--    rowspan="2": gộp cột nội dung lại-->
+</body>
+</html>

@@ -1,0 +1,13 @@
+.caption{
+ position: relative;
+    top: 30px;
+    width: 100%;
+    left: 10px;
+    padding-left: 10px;
+    background-color: white;
+    z-index: 99999;
+}
+.table{
+    border: 1px solid blue;
+    width: 200px;
+}

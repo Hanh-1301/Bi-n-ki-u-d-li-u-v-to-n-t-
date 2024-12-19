@@ -1,0 +1,8 @@
+#background{
+ width: 640px;
+    height: 640px;
+    margin: 20px ;
+    padding: 10px;
+    border: 20px solid red;
+    box-sizing: border-box;
+}

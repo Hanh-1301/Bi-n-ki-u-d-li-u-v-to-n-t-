@@ -1,0 +1,1 @@
+prompt("Xin chao bạn:")

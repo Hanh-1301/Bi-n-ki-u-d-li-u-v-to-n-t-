@@ -1,0 +1,15 @@
+
+.box{
+    margin: auto;
+    padding: 120px;
+    border: 80px solid green;
+    width: 100px;
+}
+.box p{
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    font-size: 30px;
+    background-color: powderblue;
+    color: green;
+}

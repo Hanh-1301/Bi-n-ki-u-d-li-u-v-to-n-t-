@@ -1,0 +1,23 @@
+.top {
+    display: flex;
+    height: auto;
+    margin-bottom: 20px;
+
+}
+.logo{
+    width: 20%;
+    display: flex;
+    cursor: pointer;
+}
+.banner{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    height: auto;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}

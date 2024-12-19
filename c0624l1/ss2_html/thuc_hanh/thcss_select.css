@@ -1,0 +1,41 @@
+p.a{
+   list-style-type: georgian;
+}
+ol{
+    list-style: square inherit url("hinh1.jpg");
+}
+ol li{
+    background: aqua;
+    padding: 10px;
+}
+p.style{
+    color: aqua ;
+    margin-left: 20px;
+}
+table{
+    border-collapse: collapse;
+    width: 70px;
+}
+
+table,th,td{
+     border: 1px solid black;
+}
+th {
+    height: 80px;
+
+}
+td{
+    height: 80px;
+    width: 80px;
+    text-align: left;
+}
+th,td{
+    padding: 15px;
+}
+tr:nth-child(even){
+ background-color: aqua;
+}
+th{
+    background-color: azure;
+    color: wheat;
+}

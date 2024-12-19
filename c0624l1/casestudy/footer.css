@@ -1,0 +1,165 @@
+
+body{
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: black;
+}
+.footer-col{
+    width:30% ;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 17px;
+    color: wheat;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-weight: 400;
+    position: relative;
+}
+.footer-col ul li{
+margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 17px;
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+}
+.footer-col .icons a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color:rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height:40px ;
+    border-radius: 50%;
+    color: white;
+    top: 50px;
+}
+hr{
+    width: 100%;
+    border:0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+.c{
+    color: #cccccc;
+}
+body {
+    background-color: blueviolet;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 400px;
+    padding: 10px;
+    background-color: white;
+    height: auto;
+    border-radius: 10px;
+    margin: 100px auto 0;
+}
+
+.title-login h2 {
+    text-align: center;
+    font-size: 36px;
+}
+
+.btn-login-with {
+    text-align: center;
+}
+
+.btn-login-with button {
+    padding: 15px 30px;
+    border-radius: 10px;
+    border-width: 0;
+    color: white;
+}
+
+#btn-face {
+    background-color: #3b5998;
+    margin-right: 5px;
+
+}
+
+#btn-google {
+    background-color: #dd4b39;
+    margin-left: 5px;
+}
+
+.form-login {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.form-login form {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.form-login input {
+    height: 40px;
+    width: 95%;
+    border-radius: 7px;
+    border: 1px solid #979797;
+    background-color: rgba(218, 218, 218, 0.99);
+}
+
+.form-login p {
+    margin-bottom: 3px;
+}
+
+.btn-sign-in {
+    width: 97%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+}
+
+.form-login-footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 12px;
+    color: #979797;
+}
+
+
+
+@media (max-width: 767px) {
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 574px) {
+    .footer-col{
+        width: 100%;
+
+    }
+}
+
+
+
+

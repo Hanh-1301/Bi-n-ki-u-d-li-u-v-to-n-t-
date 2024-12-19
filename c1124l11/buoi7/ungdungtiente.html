@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Covert currency</title>
+</head>
+<body>
+<form>
+    <input type="number" name="amount" id="amount">
+    <select name="form" id="form">
+        <option value="vnd"> Việt Nam</option>
+    </select>
+    <select name="to" id="to">
+        <option value="usd"> USD</option>
+    </select>
+    <button type="button" onclick="convert()">  Convert</button>
+    <script>
+        function convert(){
+            console.log('Click');
+            const amount = document.getElementById("amount").value;
+            const form = document.getElementById("form").value;
+            const to = document.getElementById("to").value;
+            console.log(amount);
+            console.log(form);
+            console.log(to);
+
+            const exchangeUSD2VND =25.395;
+             if ( form === 'vnd'){
+                 result = amout / exchangeUSD2VND;
+                 console.log(result)
+             }else {
+                 result = amount * exchangeUSD2VND;
+             }
+             document.getElementById("result")
+
+        }
+    </script>
+</form>
+</body>
+</html>

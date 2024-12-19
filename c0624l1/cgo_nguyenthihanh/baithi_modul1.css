@@ -1,0 +1,78 @@
+/*1.a*/
+.img{
+display: flex;
+    margin-top:50px ;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card{
+    flex-basis: 200px;
+    background-color: #fff;
+    padding: 3px;
+    border:1px solid blue;
+}
+.card img{
+    width: 350px;
+    height: 350px;
+}
+.card text body p {
+     font-size: 20px;
+    color: #000;
+}
+/* 1.b*/
+.img1{
+    display: flex;
+    margin-top:50px ;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card1{
+    flex-basis: 300px;
+    background-color: #fff;
+    padding: 3px;
+    border:1px solid blue;
+}
+.card img{
+    width: 350px;
+    height: 350px;
+}
+/* < 900px*/
+.img{
+    background-color: #fff;
+    margin-top: 50px;
+    flex-direction: column;
+}
+.card2{
+    display: inline-block;
+    width: 300%;
+    height: 300%;
+}
+/*Bài 2*/
+.login_box{
+   display: flex;
+    background-color: white;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border: 1px solid blue;
+    margin: 50px;
+}
+.login_box p{
+    display: flex;
+     text-align: center;
+}
+/*bài 3*/
+#Logo {
+    border: 1px solid blue;
+    width: 25%;
+    float: left;
+}
+#Banner {
+    border: 1px solid blue;
+    width: 75%;
+    float: left;
+}

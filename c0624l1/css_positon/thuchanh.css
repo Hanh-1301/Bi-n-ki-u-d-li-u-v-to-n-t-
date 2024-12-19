@@ -1,0 +1,14 @@
+
+.navbar{
+    background-color: #000000;
+    color: white;
+}
+.navbar ul li{
+    width:100px;
+    height: 30px;
+    position: relative;
+    display: block;
+    line-height: 30px;
+    background-color: black;
+    color: white;
+}
