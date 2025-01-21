@@ -1,0 +1,50 @@
+img{
+    width: 1500px;
+    height: 250px;
+}
+h1{
+    text-align: center;
+    background:#00aeee;
+    height: 60px;
+    line-height: 60px;
+}
+.form-student h3{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0px;
+}
+.form-student{
+    width: 400px;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 30px;
+}
+.form-student label{
+    width: 100px;
+    float: left;
+}
+.form-student input{
+ margin-bottom: 10px;
+    width: 200px;
+}
+ .form-student button{
+    width: 150px;
+     height: 30px;
+    margin-left: 100px;
+}
+ .list-student{
+     width: 700px;
+     border: 1px solid black;
+ }
+ .list-student h3{
+     text-align: center;
+     font-size: 30px;
+     margin-top: 0px;
+ }
+ .list-student table{
+     width: 100%;
+     border: 1px;
+     border-collapse: initial;
+     font-weight: bold;
+     font-size: 20px;
+ }

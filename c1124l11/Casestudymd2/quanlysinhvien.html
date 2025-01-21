@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản Lý Sinh Viên</title>
+  <link rel="stylesheet" href="quanlisinhvien.css">
+
+</head>
+<body>
+   <div>
+     <img src="logo.png" alt="logo">
+     <h1>QUẢN LÝ SINH VIÊN</h1>
+     <div class="form-student">
+       <h3> Thông Tin Sinh Viên</h3>
+       <label> MSSV</label>
+       <input type="text" id="number" /><br>
+       <label> Họ Và Tên</label>
+       <input type="text" id="fullname" /><br>
+       <label> Email</label>
+       <input type="text" id="email" /><br>
+       <label> Số Điện Thoại</label>
+       <input type="text" id="phone" /><br>
+       <label> Giới Tính</label>
+       <input type="text" id="gioitinh" /><br>
+       <label> Địa chỉ</label>
+       <input type="text" id="diachi" /><br>
+       <label> Ngày sinh</label>
+       <input type="text" id="date" /><br>
+       <button onclick=" save()">Lưu Lại</button>
+     </div>
+   </div>
+   <div class="list-student">
+     <h3> Danh sách sinh viên</h3>
+     <table id="grid-student">
+       <tr>
+         <td>MSSV</td>
+         <td>Họ Và Tên</td>
+         <td> Email</td>
+         <td>Số Điện Thoại</td>
+         <td>Giới tính</td>
+         <td>Địa chỉ </td>
+         <td>Ngày sinh</td>
+         <td>Thao tác</td>
+       </tr>
+     </table>
+   </div>
+   <scriptc src='https://cdn.jsdelivr.net/g/lodash@4(lodash.min.js+lodash.fp.min.js)'></scriptc>
+   <script src="quanlisinhvien.js"></script>
+</body>
+</html>
